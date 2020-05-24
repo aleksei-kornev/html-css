@@ -1,0 +1,84 @@
+body {
+	background-color:  #f8f8f8;
+}
+
+.menu {
+	padding: 14px 0;
+	list-style:none;
+
+}
+
+.menu_link {
+	color: black;
+	font-size: 1.5em;
+	font-style: bold;
+	letter-spacing: 0.040em;
+}
+
+.product_describe_header {
+	color: black;
+	font-size: 18px;
+	font-weight: 400;
+	background-color: #eaeaea;
+}
+
+.product_short_description {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+.product_long_description {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+
+.product_list {
+	color: #303030;
+	font-size: 16px;
+	font-style: bold;
+	line-height: 28px;
+	list-style-image: url(img/list_galka_small.png)
+}
+
+.product_image {
+	border-radius: 15px;
+	padding: 5px;
+}
+
+.products_list {
+	margin : 25px;
+	display:inline-block;
+    text-align : center;
+}
+
+.input_box {
+	margin : 5px;
+	width: 500px;
+	height: 25px;
+	color: #050505; 
+    font-size: 14px;
+    font-family: Tahoma;
+}
+
+input.small {
+	width: 240px;
+}
+
+textarea.textarea {
+	height: 100px;
+}
+
+.button {
+	margin : 5px;
+	width: 245px;
+	height: 50px;
+	color: #484343;
+    font-size: 17px;
+    font-family: helvetica, serif;
+    vertical-align: middle;
+}
