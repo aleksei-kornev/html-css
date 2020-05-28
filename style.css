@@ -2,10 +2,31 @@ body {
 	background-color:  #f8f8f8;
 }
 
-.menu {
-	padding: 14px 0;
-	list-style:none;
+.inline-block {
+	margin : 15px;
+	display:inline-block;
+    text-align : center;
+}
 
+.logo {
+	color: black;
+	font-size: 35px;
+	font-family: sans-serif;
+}
+
+.logo_link {
+	text-decoration: none;
+}
+
+.tagline {
+	color: black;
+	font-size: 11px;
+	font-family: sans-serif;
+}
+
+.menu {
+	list-style:none;
+	text-align: left;
 }
 
 .menu_link {
@@ -13,6 +34,11 @@ body {
 	font-size: 1.5em;
 	font-style: bold;
 	letter-spacing: 0.040em;
+	text-decoration: none;
+}
+
+.menu_link:hover {
+	color: #bbb;
 }
 
 .product_describe_header {
@@ -63,10 +89,16 @@ body {
 	color: #050505; 
     font-size: 14px;
     font-family: Tahoma;
+    text-transform: capitalize;
 }
 
 input.small {
 	width: 240px;
+}
+
+input.email:focus {
+	color: red;
+	background: #bbb;
 }
 
 textarea.textarea {
@@ -81,4 +113,13 @@ textarea.textarea {
     font-size: 17px;
     font-family: helvetica, serif;
     vertical-align: middle;
+}
+
+.table {
+	margin: 15px;
+}
+
+.table_cells {
+	width: 150px;
+	text-align: center;
 }
